@@ -79,7 +79,7 @@ let loadDictionary = (file, callback) => {
 };
 
 downloadDictionary(
-  "https://raw.githubusercontent.com/Aiman2020-alraidi/dictionary-server/main/dictionary-server/dictionary.json",
+  "https://raw.githubusercontent.com/Aiman2020-alraidi/dict-server/main/dictionary.json",
   "dictionary.json",
   (err) => {
     if (err) {
