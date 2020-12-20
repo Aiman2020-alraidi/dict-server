@@ -98,10 +98,10 @@ downloadDictionary(
 
 const server = http.createServer(dictionaryHandler);
 
-server.listen(1000, (err) => {
+server.listen(3000, (err) => {
   if (err) {
     return console.log("error starting server: " + err);
   }
 
-  console.log("server is listening on 1000");
+  console.log("server is listening on 3000");
 });
