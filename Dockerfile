@@ -1,4 +1,3 @@
-# FROM node:7.5-slim
 FROM alpine:latest
 
 RUN apk add --no-cache nodejs npm
